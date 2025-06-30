@@ -1,0 +1,49 @@
+
+
+/* Universal reset for all elements */
+
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ec89c6;
+}
+
+
+/* Full viewport sizing */
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Main container styling */
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Custom cursor styling */
+.cursor{
+    height: 10px;
+    width: 10px;
+    background-color: #ec89c6;
+    border-radius: 50%;
+    position: absolute;
+    transition: all linear 0.2s;
+    mix-blend-mode: difference; /* Creates contrast effect with background */
+}
+
+
+/* Heading styling */
+h2{
+    font-size:25vw;
+    font-weight: 900;
+    box-shadow: 25px solid  #dc45a2;
+}
